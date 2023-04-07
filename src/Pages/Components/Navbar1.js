@@ -15,11 +15,11 @@ const Navbar1 = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><button className="flex mr-3 text-white">
+                        <li><button className="flex mr-3">
                         <div className='rounded-full mr-2 bg-[#404956] '><img className='p-2' src={accountI} alt="" /></div>
                         <p className='mt-2'>My Account</p>
                     </button></li>
-                        <li className='text-center'><button className="flex text-white">
+                        <li className='text-center'><button className="flex">
                         <div className='rounded-full mr-2 bg-[#404956]'><img className='p-2' src={cartI} alt="" /></div>
                         <p className='mt-2'>Cart</p>
                     </button></li>
@@ -51,11 +51,9 @@ const Navbar1 = () => {
                         <p className='mt-2'>Cart</p>
                     </button>
                     <div className="flex block lg:hidden">
-                        <input type="search" name="Search" placeholder="Search For Products" className="py-2 pl-4 text-sm rounded-l-lg text-[#7E7E7E] bg-white w-[120px]" />
+                        <input type="search" name="Search" placeholder="Search here" className="py-2 pl-4 text-sm rounded-lg text-[#7E7E7E] bg-white w-[120px]" />
 
-                        <button type="submit" title="Search" className="p-3 rounded-md bg-[#F16A4F]">
-                            <img src={search} alt="" />
-                        </button>
+                        <span className='p-1 text-white rounded-lg bg-[#F16A4F]'><svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg></span>
                     </div>
                 </div>
             </div>
