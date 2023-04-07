@@ -27,10 +27,11 @@ const BannerNavbar = () => {
                 </div>
 
                 <div className="flex-1 gap-6 ml-12 lg:ml-0">
-                    <a className="btn btn-ghost normal-case "><img src={home} alt="" className='pr-2' />HOME</a>
-                    <a className="btn btn-ghost">SMARTPHONE</a>
+                    <a className="btn btn-ghost lg:flex normal-case hidden lg:block"><img src={home} alt="" className='pr-2' />HOME</a>
+                    <a className="btn lg:flex hidden lg:block btn-ghost">SMARTPHONE</a>
                     <h6 className='hidden lg:block'>iPhone 13 Pro Max</h6>
                 </div>
+                <a className="btn btn-ghost flex block lg:hidden normal-case "><img src={home} alt="" className='pr-2' />HOME</a>
                 <div className="flex-none hidden lg:block">
                     <ul className="menu menu-horizontal px-1">
                         <li><a><img src={facebook} alt="" /></a></li>

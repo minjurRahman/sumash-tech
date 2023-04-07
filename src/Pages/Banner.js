@@ -14,7 +14,7 @@ const Banner = () => {
     return (
         <div className='bg-[#ffffffff] pb-7'>
             <BannerNavbar></BannerNavbar>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-4 lg:m-0 '>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 m-4 lg:m-0 '>
                 {/* Three Phone Picture*/}
                 <div className='col-span-1 grid grid-cols-2'>
                     <div className="card shadow-xl col-span-2 mt-7">
@@ -34,7 +34,7 @@ const Banner = () => {
                 </div>
                 {/* Smart Phone Details  */}
                 <div className='col-span-2'>
-                    <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                    <div className='grid lg:grid-cols-3 gap-4'>
                         <div className='lg:col-span-2'>
                             <h6 className='leading-6 font-sans text-[#404956]'>Smartphone</h6>
                             <h3 className='text-5xl font-bold text-[#404956]'>iPhone 13 Pro Max</h3>
@@ -77,7 +77,7 @@ const Banner = () => {
                         </div>
 
                         {/* Right Side Two card  */}
-                        <div className='flex flex-col hidden lg:block gap-4'>
+                        <div className='lg:flex flex-col hidden lg:block gap-4'>
                             <div className='card shadow-lg bg-[#F4F4F4] p-[28px]'>
                                 <h6 className=' font-bold text-[#F16A4F]'>EMI Available</h6>
                                 <p className='pb-4'>EMI Available!
